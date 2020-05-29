@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
 
+
 namespace grabTerrariaSave
 {
     class Program
     {
-
 
         static void Main(string[] args)
         {
@@ -15,7 +15,6 @@ namespace grabTerrariaSave
             string source_file_push = $@"C:\Users\{username}\Desktop\Jamie_Lee_Curtis.wld"; //Source File for pushing
             string destination_file_pull = $@"C:\Users\{username}\Desktop\Jamie_Lee_Curtis.wld"; //Destination file for pulling
             string destination_file_push = $@"C:\Users\{username}\Documents\My Games\Terraria\Worlds\Jamie_Lee_Curtis.wld"; //Destination file for pushing
-            string pull_or_push_folder = "";
 
             Console.WriteLine("Do you want to pull or push the folder?");
             Console.WriteLine("Press enter to pull, or type \"2\" to push the folder to the worlds folder");
